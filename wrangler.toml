@@ -1,0 +1,23 @@
+name = "three-in-one"
+main = "src/worker.js"
+workers_dev = true
+compatibility_date = "2025-04-02"
+
+[placement]
+mode = "smart"
+
+[observability]
+enabled = true
+
+[vars]
+# ROOTDOMAIN = "three-in-one.subname.domain.com"
+# CFEMAIL = "xxxxxxx@gmail.com"
+# CFACCOUNTID = "16ebmb7a496e4b4p036dr7df961ace89"
+# CFZONEID = "051bd49bbaa6i8cafea587w4216ec75d"
+# CFAPITOKENS = "4eda6e315y3997af9bef49t8a24f83bce5f7b"
+# PROXY_BANK_URL = ""
+UUID4 = "30d21b15-8b26-4ea5-ba8f-904ef6074526"
+SHA224PWD = "abcf0a23e0d54a719543f3d24d797c0fe8adf926c98019c675655b7f" # 只支持SHA224的密码
+SSSIG = "1a2b3c4d5e6f7g8h9i0j" # 支持任意字符，包括uuid，不建议使用特殊符号
+SUBPWD = "5d2zv8WT"
+DEFAULTDOCDOMAIN = "libvio.me"
